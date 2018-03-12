@@ -43,5 +43,5 @@
         (if (first shorter)
           (if (= (first shorter) (first longer))
             (recur (rest longer) (rest shorter) diff)
-            (recur (rest longer) (rest shorter) (inc diff)))
+            (recur (rest longer) shorter (inc diff)))
           true)))))

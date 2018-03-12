@@ -1,4 +1,4 @@
-rmu(ns ctci.ch1.1-1-unique
+(ns ctci.ch1.1-1-unique
   (:require [clojure.string :as s]))
 
 (def x (str "qwertyuiopasdfghjklzxcvbnm,.;'[]=-0987654321!@#$%^&*()_+QWERTYUIOPASDFGHJKL{:?><MNBVCXZ"))
